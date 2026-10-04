@@ -13,10 +13,7 @@
 ```bash
 pip install -r requirements.txt
 
-# тесты одной лабы
-cd lab01_montgomery && python -m unittest -v
-
-# тесты всех лаб (нужен pytest)
+# тесты
 pytest
 ```
 
