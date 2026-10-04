@@ -8,12 +8,3 @@
 |---|------|-------|
 | 1 | Алгоритмы Монтгомери: умножение и возведение в степень в кольце вычетов | [lab01_montgomery](lab01_montgomery) |
 
-## Запуск
-
-```bash
-pip install -r requirements.txt
-
-# тесты
-pytest
-```
-
