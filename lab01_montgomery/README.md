@@ -40,17 +40,16 @@ montgomery_pow(3, 10**5, 10**9 + 7, b=2**16)   # большее основани
 
 ## Запуск
 
-Нужен Python 3.8+. Для кода и тестов хватает стандартной библиотеки, для графиков в ноутбуке нужен `matplotlib`.
-Команды выполняются из папки этой лабы:
+Нужен Python 3.8+. Для кода и тестов хватает стандартной библиотеки, для графиков нужен `matplotlib`.
+Команды выполняются из папки этой работы (lab01_montgomery):
 
 ```bash
 cd lab01_montgomery
 python montgomery.py                 # короткий пример
 python -m unittest -v                # тесты
-pip install -r ../requirements.txt && jupyter notebook demo.ipynb
+pip install -r ../requirements.txt && jupyter notebook demo.ipynb # блокнот с графиками
 ```
 
-Из корня репозитория все тесты можно запустить командой `pytest`.
 
 ## Тесты
 
