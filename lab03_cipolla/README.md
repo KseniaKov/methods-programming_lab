@@ -71,9 +71,6 @@ pip install -r ../requirements.txt && jupyter notebook demo.ipynb
 
 Из корня репозитория все тесты можно запустить командой `pytest` (нужен `pip install -r requirements.txt`).
 
-**Google Colab.** Откройте `demo.ipynb` и выполните первую ячейку: она клонирует репозиторий и найдёт модуль сама.
-Если клонировать не получилось, она предложит загрузить файл `cipolla.py` вручную.
-
 ## Структура
 
 ```
