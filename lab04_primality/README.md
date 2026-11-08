@@ -64,7 +64,6 @@ miller_rabin_round(2047, 3)                # False: основание 3 - св�
 ## Запуск
 
 Нужен Python 3.8+. Для кода и тестов хватает стандартной библиотеки, для ноутбука нужен `matplotlib`.
-Команды выполняются из папки этой лабы:
 
 ```bash
 cd lab04_primality
@@ -72,11 +71,6 @@ python primality.py                  # короткий пример
 python -m unittest -v                # тесты
 pip install -r ../requirements.txt && jupyter notebook demo.ipynb
 ```
-
-Из корня репозитория все тесты можно запустить командой `pytest` (нужен `pip install -r requirements.txt`).
-
-**Google Colab.** Откройте `demo.ipynb` и выполните первую ячейку: она клонирует репозиторий и найдёт модуль сама.
-Если клонировать не получилось, она предложит загрузить файл `primality.py` вручную.
 
 ## Структура
 
